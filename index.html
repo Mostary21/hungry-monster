@@ -4,25 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Hungry Monster | Find Your Food</title>
 </head>
 <body>
-    <div>
-        <h1>HUNGRY!! FIND YOUR MEAL</h1>
-        <div class="searchBox">
-            <i class="fa fa-search" aria-hidden="true"></i>
-            <input id="searchbar" type="text" placeholder="Search for Meal">  
+    <main>
+        <div>
+            <h2>HUNGRY!!</h2>
+            <h2>FIND YOUR MEAL</h2>
+            <div class="searchBox">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input id="search-bar" type="text" placeholder="Search Your Meal">
+                <button onclick="searchMeals()" class="searchButton">Search</button>
+            </div>
         </div>
-        <button class="searchButton">Search</button>
-    </div>
-    <div id="meal-detail">
-
-    </div>
-    <div id="meals">
-
-    </div>
-    <script src="script.js"></script>
+        <div id="meal-detail">
+        
+        </div>
+        <div id="meals">
+        
+        </div>
+        <section id="meal-container">
+        </section>
+    </main>
+    <script src="js/script.js"></script>
 </body>
 </html>
